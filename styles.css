@@ -1,4 +1,4 @@
-// {{ https://thecascade.dev/article/least-amount-of-css/ :
+/* {{ https://thecascade.dev/article/least-amount-of-css/ : */
 html {
   color-scheme: light dark;
 }
@@ -17,7 +17,7 @@ main {
   max-width: min(70ch, 100% - 4rem);
   margin-inline: auto;
 }
-// }}
+/* }} */
 
 /* 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
@@ -129,3 +129,4 @@ div a {
     right: 0;
     margin: auto;
 } */
+
