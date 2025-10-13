@@ -1,17 +1,47 @@
+// {{ https://thecascade.dev/article/least-amount-of-css/ :
+html {
+  color-scheme: light dark;
+}
+body {
+  font-family: system-ui;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+main {
+  max-width: min(70ch, 100% - 4rem);
+  margin-inline: auto;
+}
+// }}
+
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
 body {
-    background-image: url("public/images/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    animation: fadeInAnimation ease 0.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  background-image: url("public/images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: fadeInAnimation ease 0.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 div a {
@@ -31,11 +61,10 @@ div a {
             font-family: Roboto, ui-sans-serif, system-ui;
             position: relative;
             overflow: hidden;
-            /*padding-bottom: 20%; /* Maintain aspect ratio of the block */
-            background-color: #f0f0f0; /* Background color for the block */
+            //padding-bottom: 20%; // Maintain aspect ratio of the block
+            background-color: #f0f0f0; // Background color for the block
             margin-bottom: 30px;
         }
-
         .grid-content {
             position: absolute;
             top: 0;
@@ -44,11 +73,9 @@ div a {
             background-color: #2F4A67;
             padding: 7px;
         }
-
         .grid-content .th {
             background-color: #D31912 !important;
         }
-
         .grid-title {
             color: #fff;
             font-size: 1rem;
@@ -56,7 +83,6 @@ div a {
             margin-bottom: 5px;
             text-align: center;
         }
-
         .grid-submenu {
             color: #fff;
             font-size: 0.95rem;
@@ -64,19 +90,16 @@ div a {
             padding-left: 20px;
             width: 100%;
         }
-
         .box {
             cursor:  pointer;
             width: 100%;
             text-decoration: none;
             transition: top ease 0.5s;
         }
-
         .box:hover {
             opacity: 0.6;
             top:  -10px;
         }
-
         .bi {
             vertical-align:  -.125rem;
             margin-left: .125rem;
@@ -85,8 +108,6 @@ div a {
         .icon {
             vertical-align:  -.125rem;
         }
-
-
 #loader {
     border: 12px solid #f3f3f3;
     border-radius: 50%;
@@ -95,7 +116,11 @@ div a {
     height: 70px;
     animation: spin 1s linear infinite;
 }
-
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .center {
     position: absolute;
     top: 0;
@@ -103,19 +128,4 @@ div a {
     left: 0;
     right: 0;
     margin: auto;
-}
-
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+} */
